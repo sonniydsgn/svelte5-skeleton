@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "baseUrl": ".",
+    "noEmit": true
+  },
+  "include": ["dist"],
+  "exclude": ["node_modules"]
+}

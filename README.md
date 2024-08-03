@@ -2,9 +2,11 @@
 
 [![NPM version](https://img.shields.io/npm/v/svelte-skeleton.svg?style=flat)](https://www.npmjs.com/package/svelte-skeleton) [![NPM downloads](https://img.shields.io/npm/dm/svelte-skeleton.svg?style=flat)](https://www.npmjs.com/package/svelte-skeleton) [![Svelte v3](https://img.shields.io/badge/svelte-v3-blueviolet.svg)](https://svelte.dev)
 
-Simple implementation of SVG skeletons in Svelte 3
+Simple implementation of SVG skeletons in Svelte 5
 
 ![example](https://user-images.githubusercontent.com/25938785/90191444-8f443b80-ddc9-11ea-918f-da77070549b8.gif)
+
+Forked from [denisstasyev/svelte-skeleton](https://github.com/denisstasyev/svelte-skeleton).
 
 ## :rocket: Features
 
@@ -16,18 +18,18 @@ This is Svelte's component to create custom SVG skeletons to improve level of UX
 - Light size :fire:
 - Pure SVG: any custom SVG shapes can be used
 - All backgrounds within one Svelte component will be synchronized
+- Support types
+- Support
 
-P.S. It's recommended to use this package only for middle or large images. If you want to achieve the best UX for icons, use this package with `animate = false`. Also you can use [svelte-image-loader](https://github.com/denisstasyev/svelte-image-loader) ([NPM package](https://www.npmjs.com/package/svelte-image-loader)) to smooth the moment the image appears.
+P.S. It's recommended to use this package only for middle or large images. If you want to achieve the best UX for icons, use this package with `animate = false`.
 
 ## Install
 
 ```bash
-npm i svelte-skeleton
+npm i svelte5-skeleton
 ```
 
 ## Usage
-
-Please note that you should import `.svelte` file to compile it with your project's Svelte version (you can use compiled `svelte-skeleton/index.js`, but there could be errors with different versions of Svelte in your project and in this package)
 
 ```html
 <script>
@@ -87,4 +89,4 @@ Please note that some older browsers (like Internet Explorer 11) do not support 
 
 ## License
 
-MIT &copy; [Denis Stasyev](https://github.com/denisstasyev)
+This library is available under the MIT license.

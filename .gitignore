@@ -3,9 +3,6 @@
 
 # Project
 node_modules
-dist
 .npmrc
-
+pnpm-lock.yaml
 .DS_Store
-
-Skeleton.svelte
