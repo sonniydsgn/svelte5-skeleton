@@ -1,7 +1,7 @@
 declare module 'svelte5-skeleton' {
 	import { SvelteComponent, type Snippet } from 'svelte'
 
-	export class Skeleton extends SvelteComponent {
+	export default class Skeleton extends SvelteComponent {
 		secondaryColor?: string
 		primaryColor?: string
 		height?: number | string

@@ -74,16 +74,16 @@ Also you can combine it with Svelte's `{#await ...}`:
 
 ### Parameters
 
-| Name                       | Type    | Default     | Description                        |
-| -------------------------- | ------- | ----------- | ---------------------------------- |
-| primaryColor               | string  | `'#ebecef'` | Main background color              |
-| secondaryColor             | string  | `'#f5f5f7'` | Animation line color               |
-| height                     | number  | `200`       |                                    |
-| width                      | number  | `400`       |                                    |
-| speed                      | number  | `2`         |                                    |
-| animate                    | boolean | `true`      |                                    |
-| secondaryColorPercentWidth | number  | `100`       | Initial secondaryColor-part offset |
-| ariaLabel                  | string  | `null`      | Aria Label                         |
+| Name                       | Type           | Default     | Description                        |
+| -------------------------- | -------------- | ----------- | ---------------------------------- |
+| primaryColor               | string         | `'#ebecef'` | Main background color              |
+| secondaryColor             | string         | `'#f5f5f7'` | Animation line color               |
+| height                     | number         | `200`       |                                    |
+| width                      | number, string | `400`       |                                    |
+| speed                      | number, string | `2`         |                                    |
+| animate                    | boolean        | `true`      |                                    |
+| secondaryColorPercentWidth | number         | `100`       | Initial secondaryColor-part offset |
+| ariaLabel                  | string         | `null`      | Aria Label                         |
 
 Please note that some older browsers (like Internet Explorer 11) do not support SVG animations. They will only show the background color without the animation line. To create skeletons for these browsers, you need to write your own CSS animations.
 
