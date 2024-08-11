@@ -1,8 +1,8 @@
 # svelte-skeleton
 
-[![NPM version](https://img.shields.io/npm/v/svelte-skeleton.svg?style=flat)](https://www.npmjs.com/package/svelte-skeleton) [![NPM downloads](https://img.shields.io/npm/dm/svelte-skeleton.svg?style=flat)](https://www.npmjs.com/package/svelte-skeleton) [![Svelte v3](https://img.shields.io/badge/svelte-v3-blueviolet.svg)](https://svelte.dev)
+[![NPM version](https://img.shields.io/npm/v/svelte-skeleton.svg?style=flat)](https://www.npmjs.com/package/svelte5-skeleton) [![NPM downloads](https://img.shields.io/npm/dm/svelte5-skeleton.svg?style=flat)](https://www.npmjs.com/package/svelte5-skeleton) [![Svelte v5](https://img.shields.io/badge/svelte-v5-blueviolet.svg](https://svelte.dev)
 
-Simple implementation of SVG skeletons in Svelte 5
+Simple implementation of SVG skeletons in Svelte 5 with types
 
 ![example](https://user-images.githubusercontent.com/25938785/90191444-8f443b80-ddc9-11ea-918f-da77070549b8.gif)
 
@@ -18,8 +18,8 @@ This is Svelte's component to create custom SVG skeletons to improve level of UX
 - Light size :fire:
 - Pure SVG: any custom SVG shapes can be used
 - All backgrounds within one Svelte component will be synchronized
-- Support types
-- Support
+- Supports types
+- Respects Users' Motion Preferences
 
 P.S. It's recommended to use this package only for middle or large images. If you want to achieve the best UX for icons, use this package with `animate = false`.
 
@@ -33,7 +33,7 @@ npm i svelte5-skeleton
 
 ```html
 <script>
-  import Skeleton from 'svelte-skeleton/Skeleton.svelte'
+  import Skeleton from 'svelte5-skeleton/Skeleton.svelte'
 
   ...
 </script>
