@@ -4,10 +4,13 @@
   "description": "Simple implementation of SVG skeletons in Svelte 5 with types",
   "main": "Skeleton.svelte",
   "files": [
+    "index.d.ts",
     "Skeleton.svelte"
   ],
+  "types": "./index.d.ts",
   "exports": {
     ".": {
+      "types": "./index.d.ts",
       "default": "./Skeleton.svelte"
     },
     "./package.json": "./package.json"

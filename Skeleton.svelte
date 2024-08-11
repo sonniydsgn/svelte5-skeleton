@@ -1,19 +1,8 @@
 <svelte:options runes={true} />
 
 <script lang="ts">
-	import { onMount, type Snippet } from 'svelte'
-
-	interface Props {
-		secondaryColor?: string
-		primaryColor?: string
-		height?: number | string
-		width?: number | string
-		speed?: number
-		animate?: boolean
-		secondaryColorPercentWidth?: number
-		ariaLabel?: string
-		children: Snippet
-	}
+	import { onMount } from 'svelte'
+	import type { Skeleton } from 'svelte5-skeleton'
 
 	const {
 		secondaryColor = '#F5F5F7',
@@ -25,7 +14,7 @@
 		secondaryColorPercentWidth = 100,
 		ariaLabel,
 		children,
-	}: Props = $props()
+	}: Skeleton = $props()
 
 	let prefersReducedMotion = $state(true)
 	let idClip = getUniqueId()
