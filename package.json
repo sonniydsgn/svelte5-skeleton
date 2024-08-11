@@ -2,6 +2,10 @@
   "name": "svelte5-skeleton",
   "version": "2.0.0",
   "type": "module",
+  "main": "dist/index.ts",
+  "files": [
+    "dist/*"
+  ],
   "description": "Simple implementation of SVG skeletons in Svelte 5 with types",
   "keywords": [
     "svelte",
@@ -19,10 +23,5 @@
   },
   "peerDependencies": {
     "svelte": "^5.0.0"
-  },
-  "exports": {
-    ".": {
-      "svelte": "./src/Skeleton.svelte"
-    }
   }
 }

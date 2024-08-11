@@ -7,3 +7,9 @@ node_modules
 .npmrc
 pnpm-lock.yaml
 .DS_Store
+
+# Config's
+tsconfig.json
+.prettierrc.yml
+.editorconfig
+.github
