@@ -5,6 +5,5 @@
     "baseUrl": ".",
     "noEmit": true
   },
-  "include": ["dist"],
   "exclude": ["node_modules"]
 }

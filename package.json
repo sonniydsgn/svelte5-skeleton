@@ -1,12 +1,25 @@
 {
   "name": "svelte5-skeleton",
   "version": "2.1.0",
-  "type": "module",
-  "main": "dist/index.ts",
-  "files": [
-    "dist/*"
-  ],
   "description": "Simple implementation of SVG skeletons in Svelte 5 with types",
+  "main": "Skeleton.svelte",
+  "files": [
+    "Skeleton.svelte"
+  ],
+  "exports": {
+    ".": {
+      "default": "./Skeleton.svelte"
+    },
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonniydsgn/svelte5-skeleton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sonniydsgn/svelte5-skeleton/issues"
+  },
+  "homepage": "https://github.com/sonniydsgn/svelte5-skeleton#readme",
   "keywords": [
     "svelte",
     "svelte5",
@@ -14,6 +27,7 @@
     "component"
   ],
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
     "@typescript-eslint/parser": "^8.0.1",
     "prettier": "^3.3.3",

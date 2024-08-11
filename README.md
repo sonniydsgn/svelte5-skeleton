@@ -1,6 +1,6 @@
-# svelte-skeleton
+# svelte5-skeleton
 
-[![NPM version](https://img.shields.io/npm/v/svelte-skeleton.svg?style=flat)](https://www.npmjs.com/package/svelte5-skeleton) [![NPM downloads](https://img.shields.io/npm/dm/svelte5-skeleton.svg?style=flat)](https://www.npmjs.com/package/svelte5-skeleton) [![Svelte v5](https://img.shields.io/badge/svelte-v5-blueviolet.svg](https://svelte.dev)
+[![NPM version](https://img.shields.io/npm/v/svelte-skeleton.svg?style=flat)](https://www.npmjs.com/package/svelte5-skeleton) [![NPM downloads](https://img.shields.io/npm/dm/svelte5-skeleton.svg?style=flat)](https://www.npmjs.com/package/svelte5-skeleton) [![Svelte v5](https://img.shields.io/badge/svelte-v5-blueviolet.svg)](https://svelte.dev)
 
 Simple implementation of SVG skeletons in Svelte 5 with types
 
@@ -26,7 +26,7 @@ P.S. It's recommended to use this package only for middle or large images. If yo
 ## Install
 
 ```bash
-npm i svelte5-skeleton
+npm i svelte5-skeleton -D
 ```
 
 ## Usage
